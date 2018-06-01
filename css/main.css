@@ -1,0 +1,367 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/*  Fonts   */
+
+@font-face {
+    font-family: robotobold;
+    src: url("fonts/RobotoSlab-Bold.ttf");
+}
+body p, h1, h2, h3, ul{
+    font-family: "robotobold", Arial;     
+}
+
+/* Home Page CSS */
+.fullScreen{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    clear: left;
+    background: black;
+    overflow: hidden;  
+}
+
+.headText{
+    position: absolute;
+    z-index: 2;
+    width: 100%; 
+    top:2%;
+    margin-left: -1%;    
+    text-align: center;
+}
+.headText img{
+    width:60%;
+}
+
+.mainLogo{
+    position: absolute;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 20%;
+    z-index: 3;
+    text-align: center;
+}
+.mainLogo img{
+    position: relative;
+    width: 70%;
+}
+.milkHeader{
+    position: absolute;
+    margin-left: 0px;
+    margin-top: -10%;
+    width: 100%;
+    z-index:1;
+    text-align: center;
+}
+.milkHeader img{
+    position: relative; 
+    width:80%;
+}
+    
+/*  Home Page Navigation  */
+.leftIcons{
+    position: absolute;
+    z-index: 10;
+    top: 40%;
+    
+    
+}
+.leftIcons ul li{
+    text-align: center;
+    margin-top: 4%;
+}
+
+.rightIcons{
+    position: absolute;
+    z-index: 10;
+    top: 40%;
+    margin-left: 72%;   
+}
+
+.rightIcons ul li{
+    text-align: center;
+    margin-top: 4%;    
+}
+.slideshowLink{
+    position: absolute;
+    z-index: 10;
+    top:82%;
+    width: 33%;
+    margin-left: 31%;
+    text-align: center;
+    
+}
+.leftIcons ul,
+.rightIcons ul, 
+.slideshowLink ul{
+    list-style-type: none;  
+    
+}
+
+/* Button Styles */
+
+.btn {
+  background: #d93434;
+  background-image: -webkit-linear-gradient(top, #d93434, #611919);
+  background-image: -moz-linear-gradient(top, #d93434, #611919);
+  background-image: -ms-linear-gradient(top, #d93434, #611919);
+  background-image: -o-linear-gradient(top, #d93434, #611919);
+  background-image: linear-gradient(to bottom, #d93434, #611919);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #fc3c3c;
+  background-image: -webkit-linear-gradient(top, #fc3c3c, #bd2d2d);
+  background-image: -moz-linear-gradient(top, #fc3c3c, #bd2d2d);
+  background-image: -ms-linear-gradient(top, #fc3c3c, #bd2d2d);
+  background-image: -o-linear-gradient(top, #fc3c3c, #bd2d2d);
+  background-image: linear-gradient(to bottom, #fc3c3c, #bd2d2d);
+  text-decoration: none;
+    
+}
+/*  Acordion Buttons  */
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.8em;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+button.accordion:after {
+    content: '\02795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2796";
+}
+
+div.panel {
+    padding: 10px 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+    opacity: 0;
+    margin-bottom: 5px;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px;
+}
+
+/*  SPA Home Button */
+.homeButton1, {
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 5%;
+    width: 10%;
+}
+.homeButton img{
+    position: relative;
+    width: 100%;  
+    z-index: 99;
+}
+
+
+
+/*  Why SNT page css*/
+#whyPage, #FAQContainer, #franchiseApp, #virtualTour, #franchiseReqs, #contactPage, #slideshowPage{
+    position: absolute;
+    top:0px;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background: black;
+    background-image: url("/img/Snake-Skin-Background.jpg");
+    background-size: cover;
+    font:"robotobold";
+    
+}
+#whyContainer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.disclaimer{
+   position: absolute;
+   width: 25%;
+   padding: 15px;
+   margin-left: 2.5%;    
+   margin-top: 3%;    
+   font-family: "robotobold", Arial;
+   background-color: beige;
+   box-shadow: 5px 5px rgba(0,0,0,.7);
+   border-radius: 5px;    
+    
+}
+#offeringDoc{
+    position: absolute;
+    width: 70%;
+    margin-left: 30%;
+    margin-top: 2%;
+    height:98%
+    
+}
+
+/*  Style for FAQPage   */
+#FAQContainer{
+    overflow-y:scroll;
+       
+}
+#FAQPage{
+    position: absolute;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
+    height:auto;
+    background: white;
+    background: rgba(255,255,255, .9);
+    border-radius: 10px;
+    
+}
+#FAQPage h2{
+    padding:5px;
+    margin-left: 10px;
+    
+}
+
+
+/* Styling for franchiseApp page */
+#franchiseApp{
+    position: absolute;
+    overflow-y: scroll;
+    
+}
+
+.homeButton3 img{
+    position: absolute;
+    width:20%;
+    margin-left: 5%;
+}
+
+#franchiseForm{
+    position: absolute;
+    width: 60%;
+    height: auto;
+    margin-top: 10%;
+    margin-left: 20%;
+    padding:15px;
+    border-radius: 10px;
+    background: white;
+}
+
+
+
+/* Styling for virtualTour page */
+.homeButton4 img{
+    position: absolute;
+    width:20%;   
+}
+#tourWrap{
+    position: absolute;
+    width: 90%;
+    margin-left: 5%;
+    height:90%;
+    margin-top: 5%;
+}
+#tourWrap iframe{
+    margin-top:10%;
+    margin-left: 5%;
+}
+
+
+/*  Stylinge for requirements page  */
+#franchiseReqs{
+    overflow-y: scroll;   
+}
+.homeButton5 img{
+    position: absolute;
+    width:20%;   
+}
+#reqsProcess{
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    margin-left: 5%;
+    margin-top: 10%;
+    background: white;
+    border-radius: 10px;
+}
+
+#reqsProcess span{
+    font-size: 1.8em;
+    color:red;
+    font: "robotobold";
+}
+
+/*  Styling for contactPage  */
+.homeButton6 img{
+    position: absolute;
+    width:20%;   
+}
+#contactWrap{
+    position: absolute;
+    
+}
+
+/*  Styling for slideshowPage  */
+.homeButton7 img{
+    position: absolute;
+    width:20%;
+    z-index: 99;
+}
+#slideshowWrap iframe{
+    position: absolute;
+    z-index: 50;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*  Footer Settings */
+
+footer {
+    position: absolute;
+    width: 33%;
+    margin-left: 32.5%;
+    top:95%;
+    text-align: center;
+    color:yellow;
+    text-shadow: 1px 1px rgba(205, 227, 163, 0.6);
+    z-index: 50;
+    
+}
+
+
+
+
+
+

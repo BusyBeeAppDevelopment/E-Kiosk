@@ -1,0 +1,358 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Bootstrap default
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        -->
+        <!-- We'll need to localize these -->
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+        
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script   src="js/jquery-3.0.0.min.js"></script>
+        <!-- We'll need to localize these -->
+        <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+        
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    
+    <!--    
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right" role="form">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+        <!--
+      </div>
+    </nav>
+    -->
+        <div class="fullScreen" id="home">
+        
+            <div class="headText"><img src="img/Franchise-Ops.png"/></div>
+            <div class="milkHeader"><img src="img/milk_snake.jpg"/></div>
+            <div class="mainLogo"><img src="img/SNT-LG.png"/></div>
+            
+            <div class="leftIcons">
+                <ul>
+                    <li><button id="whyButton" class="btn" >Why Scails N Tails?</button></li>
+                    <li><button id="FAQButton" class="btn">FAQs</button></li>
+                    <li><button id="franchiseAppButton" class="btn">Franchise Application</button></li>
+                </ul>
+            </div>
+            <div class="rightIcons">
+                <ul>
+                    <li><button id="virtualTourButton" class="btn">Tour A Store</button></li>
+                    <li><button id="reqsButton" class="btn">Process and Requirements</button></li>
+                    <li><button id="contactButton" class="btn">Contact Us</button></li>
+                </ul>
+            </div>
+            <div class="slideshowLink">
+                <ul>
+                    <li><button id="slideshowButton" class="btn">Slide Show</button></li>
+                </ul>
+            </div>
+        <footer>
+        <p>&copy; Scales N Tails 2016</p>
+        </footer>
+        </div>  
+        <!-- End of homepage -->
+        <!-- Start of whyPage -->    
+        <div id="whyPage">
+            <div id="whyContainer">
+            <div class="homeButton1"><img src="img/homeButton.png"></div>
+            <p class="disclaimer">
+             <em>DISCLAIMER:</em><br/><br/>
+
+    SCALES ‘N TAILS® FRANCHISES ARE AVAILABLE TO QUALIFIED PROSPECTIVE FRANCHISEES ONLY IN CERTAIN STATES. SCALES ‘N TAILS FRANCHISING, LLC WILL NOT OFFER OR SELL A FRANCHISE UNLESS REGISTERED (OR EXEMPT) IN THE STATE WHERE THE PROSPECTIVE BUYER RESIDES OR WHERE THE FRANCHISE WILL BE LOCATED. THIS OFFER IS NOT BEING DIRECTED TO ANY RESIDENT OF ANY STATE, PROVINCE, COUNTRY OR JURISDICTION WHERE SCALES ‘N TAILS FRANCHISING, LLC IS NOT CURRENTLY REGISTERED TO OFFER OR SELL A FRANCHISE, UNLESS OTHERWISE QUALIFIED OR EXEMPT. THE INFORMATION ON THIS WEB SITE IS NOT AN OFFER TO SELL, OR A SOLICITATION OF AN OFFER TO BUY A SCALES ‘N TAILS® FRANCHISE. AN OFFER TO BUY A SCALES ‘N TAILS® FRANCHISE IS MADE BY FRANCHISE DISCLOSURE DOCUMENT ONLY.
+            </p>
+            <div id="offeringDoc">
+
+            </div>
+            <script src="/js/pdf/pdfobject.js"></script>
+            <script>
+            //Be sure your document contains an element with the CSS selector "#offeringDoc"
+            var options = {
+               pdfOpenParams: { scrollbar: '1' }
+            };
+
+            PDFObject.embed("/assets/Offering-Doc.pdf", "#offeringDoc", options);
+            </script>
+            </div>    
+        </div>    
+    <!-- End of whyPage -->
+    <!-- Start of FAQs -->
+        <div id="FAQContainer">
+            <div class="homeButton2"><img src="/img/homeButton.png"></div>
+            <div id="FAQPage">
+
+
+                <h2>Frequently Asked Questions</h2>
+
+                    <button class="accordion">What is included with a Scales 'N Tails Franchise?</button>
+                    <div class="panel">
+                      <p>Scales ‘N Tails® offers turn-key Franchises, so everything needed to
+                         get your store open for business is included:
+                           <ul>
+                            <li>Site Selection & Lease Negotiation</li>
+                            <li>Store Design & Build Out</li>
+                            <li>Fixtures & Inventory</li>
+                            <li>Point of Sale Hardware & Software – Programmed and Ready to Use!</li>
+                            <li>Training – Management, Sales, Merchandising, & Animal Care</li>
+                            <li>Working Capital</li>   
+                          </ul></p>
+                    </div>
+
+                    <button class="accordion">How much does it cost?</button>
+                    <div class="panel">
+                      <p>The actual cost of a new Scales ‘N Tails® can vary by geographic location and desired size of the store. However, $150,000 will generally be sufficient to open a new store that occupies approximately 1,200 sf.</p>
+                    </div>
+
+                    <button class="accordion">How long does it take to open my new store?
+                    </button>
+                    <div class="panel">
+                      <p><b>1 – 3 months:</b> We understand that it is crucial to get a new store open as quickly as possible, and work hard to do just that. However, lease negotiations and required State/City licenses can add time.</p>
+                    </div>
+                    <button class="accordion">What fees will I pay to the Franchisor?</button>
+                    <div class="panel">
+                      <p><ul>
+                            <li>$20,000 – Scales ‘N Tails Franchise Fee, for a term of 10 years.</li>
+                            <li>4.5% royalty on gross sales.</li>
+                         </ul>
+                      </p>
+                    </div>
+                    <button class="accordion">What type/how much assistance is provided?
+                    </button>
+                    <div class="panel">
+                      <p>We assist you every step of the way to get your new store open as quickly as possible. We’ll provide you with training at our company owned store in Colorado. Then we’ll come out to your location to help design, setup, and stock your new store. We’ll also have someone there for your first full week of business to provide grand opening support. We are always there to provide ongoing assistance if needed.</p>
+                </div>
+
+                <script>
+                var acc = document.getElementsByClassName("accordion");
+                var i;
+
+                for (i = 0; i < acc.length; i++) {
+                    acc[i].onclick = function(){
+                        this.classList.toggle("active");
+                        this.nextElementSibling.classList.toggle("show");
+                  }
+                }
+                </script>
+
+
+            </div>
+            <!-- End FAQ Page - The actual container -->
+        </div>
+        <!-- End of FAQContainer-->
+
+
+        <!-- Start of franchiseApp -->
+        <div id="franchiseApp">
+            <div class="homeButton3"><img src="/img/homeButton.png"/></div>
+            <div id="franchiseForm">
+            
+            <form action="?">
+                <input type="hidden" name="subject" value="FranchiseApplication"></input>
+                <label>First Name</label>
+                <input type="text" name="FirstName" required="required"></input><br/><br/>  
+                <label>Last Name</label><br/> 
+                <input type="text" name="LastName"></input><br/><br/>  
+                <label>Email Address</label><br/> 
+                <input type="email" name="email"></input><br/><br/>
+                <label>Street Address</label><br/> 
+                <input type="email" name="email"></input><br/><br/>
+                <label>City</label><br/> 
+                <input type="text" name="city"></input><br/><br/>
+                <select>
+                    <option value="AL">Alabama</option>
+                    <option value="AK">Alaska</option>
+                    <option value="AZ">Arizona</option>
+                    <option value="AR">Arkansas</option>
+                    <option value="CA">California</option>
+                    <option value="CO">Colorado</option>
+                    <option value="CT">Connecticut</option>
+                    <option value="DE">Delaware</option>
+                    <option value="DC">District Of Columbia</option>
+                    <option value="FL">Florida</option>
+                    <option value="GA">Georgia</option>
+                    <option value="HI">Hawaii</option>
+                    <option value="ID">Idaho</option>
+                    <option value="IL">Illinois</option>
+                    <option value="IN">Indiana</option>
+                    <option value="IA">Iowa</option>
+                    <option value="KS">Kansas</option>
+                    <option value="KY">Kentucky</option>
+                    <option value="LA">Louisiana</option>
+                    <option value="ME">Maine</option>
+                    <option value="MD">Maryland</option>
+                    <option value="MA">Massachusetts</option>
+                    <option value="MI">Michigan</option>
+                    <option value="MN">Minnesota</option>
+                    <option value="MS">Mississippi</option>
+                    <option value="MO">Missouri</option>
+                    <option value="MT">Montana</option>
+                    <option value="NE">Nebraska</option>
+                    <option value="NV">Nevada</option>
+                    <option value="NH">New Hampshire</option>
+                    <option value="NJ">New Jersey</option>
+                    <option value="NM">New Mexico</option>
+                    <option value="NY">New York</option>
+                    <option value="NC">North Carolina</option>
+                    <option value="ND">North Dakota</option>
+                    <option value="OH">Ohio</option>
+                    <option value="OK">Oklahoma</option>
+                    <option value="OR">Oregon</option>
+                    <option value="PA">Pennsylvania</option>
+                    <option value="RI">Rhode Island</option>
+                    <option value="SC">South Carolina</option>
+                    <option value="SD">South Dakota</option>
+                    <option value="TN">Tennessee</option>
+                    <option value="TX">Texas</option>
+                    <option value="UT">Utah</option>
+                    <option value="VT">Vermont</option>
+                    <option value="VA">Virginia</option>
+                    <option value="WA">Washington</option>
+                    <option value="WV">West Virginia</option>
+                    <option value="WI">Wisconsin</option>
+                    <option value="WY">Wyoming</option>
+                </select><br/>
+                <label>Zip Code</label><br/> 
+                <input type="text" name="zipCode"></input><br/>
+                <label>Business Phone</label><br/> 
+                <input type="tel" name="busPhone"></input><br/>
+                <label>Business Ext</label><br/> 
+                <input type="text" name="ext"></input><br/>
+                <label>Home Phone</label><br/> 
+                <input type="tel" name="homePhone"></input><br/>
+                <label>Mobile Phone</label><br/> 
+                <input type="tel" name="cellPhone"></input><br/>
+                <input type="submit" value="Submit">
+            </form>
+                
+            
+            </div>
+        </div>
+        <!-- End of franchiseApp -->
+        
+        <div id="virtualTour">
+            
+            <div class="homeButton4"><img src="img/homeButton.png"/></div>
+            <div id="tourWrap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2sus!4v1468867663083!6m8!1m7!1sO7i0vgtYYP0AAAQvOstv3Q!2m2!1d40.5366700267485!2d-105.0774738188338!3f331!4f0!5f0.5970117501821992" width="90%" height="77%" frameborder="0" style="border:0" allowfullscreen></iframe>
+             </div>
+        </div>
+        <div id="franchiseReqs">
+            
+            <div class="homeButton5"><img src="img/homeButton.png"/></div>
+            <div id="reqsProcess">
+                
+            <h2>NEW FRANCHISE OWNERSHIP PROCESS:</h2>
+            <p>
+                <span>Step 1 - </span>Submit Request for Consideration Form<br/>
+                <span>Step 2 - </span>Initial Call with Scales ‘N Tails Franchising Representative<br/>
+                <span>Step 3 - </span>Submit Additional Information: Including Resume & Financial Statements<br/>
+                <span>Step 4 - </span>Operational Interview<br/>
+                <span>Step 5 - </span>Visit a Corporate Owned Scales ‘N Tails Location<br/>
+                <span>Step 6 - </span>Final Board Review & Approval<br/>
+                <span>Step 7 - </span>Execution of Franchise Agreement<br/>
+            </p>
+            <h2>NEW FRANCHISEE REQUIREMENTS:</h2>
+                <h4>Scales ‘N Tails net worth and capital requirements are:</h4>
+                <ul>
+                    <li>Minimum of $50,000 in cash or liquid assets</li>
+                    <li>Minimum net worth of $150,000</li>
+                    <li>Ability of obtain financing up to $250,000</li>
+                </ul>
+                <p>These are minimum requirements and do not represent the total potential costs to open and operate one or more Scales ‘N Tails units.</p>
+            <h2>SCALES ‘N TAILS FRANCHISEE QUALIFICATIONS ARE:</h2>
+                <ul>
+                    <li>Business Professionals with Management Experience</li>
+                    <li>Retail Experience Is Preferred</li>
+                    <li>Animal Experience Is Preferred</li>
+                
+                </ul>
+            </div>
+        </div>
+        <!-- End of Franchise Requirements Page -->
+        <!-- Start of Contact Page -->
+        <div id="contactPage">
+            <div class="homeButton6"><img src="img/homeButton.png"/></div>
+            <div id="contactWrap">
+            
+            </div>
+
+        </div>
+        <!-- End of Contact Page -->
+
+        <!-- Start of slideshowPage -->
+        <div id="slideshowPage">
+            <div class="homeButton7"><img src="img/homeButton.png"/></div>
+            <div id="slideshowWrap">
+                <iframe src="/slider2/with-jquery.html"></iframe>
+            </div>
+
+        </div>
+        <!-- End of slideshowPage -->
+    </body>
+    
+      
+    </div> <!-- /container We're using jQuery 3.0      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')</script> -->  
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/plugins.js"></script>
+        
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. 
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+        -->
+    
+    
+    </body>
+</html>
